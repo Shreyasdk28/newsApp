@@ -1,7 +1,7 @@
 package com.kerimbr.kotnews.domain.usecase
 
-import com.kerimbr.kotnews.core.constants.DEFAULT_COUNTRY
-import com.kerimbr.kotnews.core.constants.DEFAULT_PAGE_NUMBER
+import com.kerimbr.kotnews.data.models.constants.DEFAULT_COUNTRY
+import com.kerimbr.kotnews.data.models.constants.DEFAULT_PAGE_NUMBER
 import com.kerimbr.kotnews.data.models.news.Article
 import com.kerimbr.kotnews.data.models.news.NewsAPIResponse
 import com.kerimbr.kotnews.data.remote.data_source.paging_source.NewsRemotePagingSource

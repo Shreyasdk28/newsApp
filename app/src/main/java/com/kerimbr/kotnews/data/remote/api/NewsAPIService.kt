@@ -1,9 +1,9 @@
 package com.kerimbr.kotnews.data.remote.api
 
 
-import com.kerimbr.kotnews.core.constants.API_KEY
-import com.kerimbr.kotnews.core.constants.DEFAULT_COUNTRY
-import com.kerimbr.kotnews.core.constants.DEFAULT_PAGE_NUMBER
+import com.kerimbr.kotnews.data.models.constants.API_KEY
+import com.kerimbr.kotnews.data.models.constants.DEFAULT_COUNTRY
+import com.kerimbr.kotnews.data.models.constants.DEFAULT_PAGE_NUMBER
 import com.kerimbr.kotnews.core.enums.SearchNewsQueries
 import com.kerimbr.kotnews.data.models.news.NewsAPIResponse
 import retrofit2.Response

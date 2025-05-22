@@ -1,4 +1,4 @@
-package com.kerimbr.kotnews.core.constants
+package com.kerimbr.kotnews.data.models.constants
 import com.kerimbr.kotnews.BuildConfig
 
 

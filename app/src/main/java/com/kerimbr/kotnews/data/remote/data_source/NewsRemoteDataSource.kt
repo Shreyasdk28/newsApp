@@ -1,8 +1,8 @@
 package com.kerimbr.kotnews.data.remote.data_source
 
 
-import com.kerimbr.kotnews.core.constants.DEFAULT_COUNTRY
-import com.kerimbr.kotnews.core.constants.DEFAULT_PAGE_NUMBER
+import com.kerimbr.kotnews.data.models.constants.DEFAULT_COUNTRY
+import com.kerimbr.kotnews.data.models.constants.DEFAULT_PAGE_NUMBER
 import com.kerimbr.kotnews.data.models.news.NewsAPIResponse
 import retrofit2.Response
 

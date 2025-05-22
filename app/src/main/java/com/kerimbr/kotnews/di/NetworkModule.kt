@@ -1,10 +1,10 @@
 package com.kerimbr.kotnews.di
 
 import com.kerimbr.kotnews.BuildConfig
-import com.kerimbr.kotnews.core.constants.BASE_URL
-import com.kerimbr.kotnews.core.constants.CONNECT_TIMEOUT
-import com.kerimbr.kotnews.core.constants.READ_TIMEOUT
-import com.kerimbr.kotnews.core.constants.WRITE_TIMEOUT
+import com.kerimbr.kotnews.data.models.constants.BASE_URL
+import com.kerimbr.kotnews.data.models.constants.CONNECT_TIMEOUT
+import com.kerimbr.kotnews.data.models.constants.READ_TIMEOUT
+import com.kerimbr.kotnews.data.models.constants.WRITE_TIMEOUT
 import com.kerimbr.kotnews.data.remote.api.NewsAPIService
 import dagger.Module
 import dagger.Provides

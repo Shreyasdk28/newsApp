@@ -2,7 +2,7 @@ package com.kerimbr.kotnews.data.remote.data_source.paging_source
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.kerimbr.kotnews.core.constants.PAGING_STARTING_PAGE_INDEX
+import com.kerimbr.kotnews.data.models.constants.PAGING_STARTING_PAGE_INDEX
 import com.kerimbr.kotnews.data.models.news.Article
 import com.kerimbr.kotnews.data.remote.data_source.NewsRemoteDataSource
 import javax.inject.Inject

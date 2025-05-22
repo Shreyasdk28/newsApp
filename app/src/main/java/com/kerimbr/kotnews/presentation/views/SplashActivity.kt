@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.kerimbr.kotnews.R
-import com.kerimbr.kotnews.core.constants.SPLASH_SCREEN_DURATION
+import com.kerimbr.kotnews.data.models.constants.SPLASH_SCREEN_DURATION
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {

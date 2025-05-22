@@ -10,8 +10,8 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.kerimbr.kotnews.core.constants.GITHUB_REPO_URL
-import com.kerimbr.kotnews.core.constants.PAGING_PAGE_SIZE
+import com.kerimbr.kotnews.data.models.constants.GITHUB_REPO_URL
+import com.kerimbr.kotnews.data.models.constants.PAGING_PAGE_SIZE
 import com.kerimbr.kotnews.data.models.news.Article
 import com.kerimbr.kotnews.domain.usecase.NewsUseCases
 import dagger.hilt.android.lifecycle.HiltViewModel
