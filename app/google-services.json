@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904141479145",
+    "project_id": "madfinal-46731",
+    "storage_bucket": "madfinal-46731.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904141479145:android:f20642430f0cbd3e166478",
+        "android_client_info": {
+          "package_name": "com.kerimbr.kotnews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe1FTE2iRm_RnhzuEHqvHph-68-Ls3RPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

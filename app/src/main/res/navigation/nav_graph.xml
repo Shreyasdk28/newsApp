@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/newsFragment"
-        android:name="com.kerimbr.kotnews.presentation.views.news.NewsFragment"
-        android:label="fragment_news"
+        android:name="com.kerimbr.kotnews.ui.news.NewsFragment"
+        android:label="NewsFragment"
         tools:layout="@layout/fragment_news" >
         <action
             android:id="@+id/action_newsFragment_to_newDetailFragment"
@@ -16,8 +16,8 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.kerimbr.kotnews.presentation.views.search.SearchFragment"
-        android:label="fragment_search"
+        android:name="com.kerimbr.kotnews.ui.search.SearchFragment"
+        android:label="SearchFragment"
         tools:layout="@layout/fragment_search" >
         <action
             android:id="@+id/action_searchFragment_to_newDetailFragment"
@@ -25,8 +25,8 @@
     </fragment>
     <fragment
         android:id="@+id/bookmarksFragment"
-        android:name="com.kerimbr.kotnews.presentation.views.bookmarks.BookmarksFragment"
-        android:label="fragment_bookmarks"
+        android:name="com.kerimbr.kotnews.ui.bookmarks.BookmarksFragment"
+        android:label="BookmarksFragment"
         tools:layout="@layout/fragment_bookmarks" >
         <action
             android:id="@+id/action_bookmarksFragment_to_newDetailFragment"
@@ -34,11 +34,11 @@
     </fragment>
     <fragment
         android:id="@+id/newDetailFragment"
-        android:name="com.kerimbr.kotnews.presentation.views.new_details.NewDetailFragment"
-        android:label="fragment_new_detail"
+        android:name="com.kerimbr.kotnews.ui.details.NewDetailFragment"
+        android:label="NewDetailFragment"
         tools:layout="@layout/fragment_new_detail" >
         <argument
             android:name="article"
-            app:argType="com.kerimbr.kotnews.data.models.news.Article" />
+            app:argType="com.kerimbr.kotnews.data.model.Article" />
     </fragment>
 </navigation>
