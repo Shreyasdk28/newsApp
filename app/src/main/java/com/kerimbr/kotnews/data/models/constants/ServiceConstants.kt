@@ -10,7 +10,7 @@ const val READ_TIMEOUT = 60L
 const val WRITE_TIMEOUT = 120L
 
 
-const val DEFAULT_COUNTRY = "tr"
+const val DEFAULT_COUNTRY = "us"
 const val DEFAULT_PAGE_NUMBER = 1
 
 const val PAGING_STARTING_PAGE_INDEX = 1

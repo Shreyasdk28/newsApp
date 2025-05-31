@@ -12,5 +12,4 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
-api.properties
+local.properties 
